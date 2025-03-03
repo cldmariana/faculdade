@@ -4,10 +4,10 @@ import java.util.Scanner;
 public class DirectSpeech {
     public static void main(String[] args) {
 
-        String fileAdress = "lista-de-jogos.txt";
+        String fileAdress = "game-list.txt";
 
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Digite a linha desejada: ");
+        System.out.print("Type the wanted line: ");
         int wantedLine = scanner.nextInt();
 
         int lineNumber = 1;
@@ -21,7 +21,7 @@ public class DirectSpeech {
 
             while ((line = bufferedReader.readLine()) != null) {
                 if (lineNumber == wantedLine) {
-                    System.out.println("o jogo da linha " + wantedLine + " é: " + line);
+                    System.out.println("The game of the line " + wantedLine + " is: " + line);
                     lineFound = true;
                     break;
                 }
@@ -29,14 +29,14 @@ public class DirectSpeech {
 
             }
             if (!lineFound) {
-                System.out.println("A linha " + wantedLine + " não foi encontrada");
+                System.out.println("The line " + wantedLine + " was not found");
             }
 
             bufferedReader.close();
             fileReader.close();
 
         } catch (IOException e) {
-            System.out.println("Ocorreu um erro ao ler o arquivo");
+            System.out.println("Oops! Something went wrong");
         }
     }
 }
