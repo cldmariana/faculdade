@@ -22,7 +22,7 @@ public class SequentialAccess {
                 "Need for Speed\n" +
                 "L.A. Noire\n" +
                 "Mafia I\n" +
-                "Mafia II\n"};
+                "Mafia II"};
 
         System.out.println(Arrays.toString(games));
     }
