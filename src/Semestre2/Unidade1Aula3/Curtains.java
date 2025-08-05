@@ -33,5 +33,7 @@ public class Curtains {
             System.out.println("The curtains already closed (close at " + closeTime + "h00)");
         }
 
+        //libera recursos
+        scanner.close();
     }
 }
