@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/acesso-sequencial-e-direto.iml" filepath="$PROJECT_DIR$/acesso-sequencial-e-direto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/faculdade.iml" filepath="$PROJECT_DIR$/.idea/faculdade.iml" />
     </modules>
   </component>
 </project>
