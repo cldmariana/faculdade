@@ -19,7 +19,6 @@ int main()
         return 1;
     }
 
-
     printf("Quantos anos esse valor ficara investido? ");
     scanf("%d", &anos);
 
