@@ -3,6 +3,8 @@
 //
 #include <stdio.h>
 
+// FEITO COM AJUDA DE IA
+
 int main() {
     // Capacidades das classes
     int capacidadeEconomica = 150;

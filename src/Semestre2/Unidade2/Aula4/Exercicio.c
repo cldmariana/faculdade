@@ -8,6 +8,8 @@
 #define MAX_PRODUTOS 100
 #define TAM_NOME 50
 
+// FEITO COM AJUDA DE IA
+
 // Estrutura para representar um produto
 typedef struct
 {
