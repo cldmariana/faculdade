@@ -4,9 +4,12 @@
 //
 
 //  função sem retorno 'void'
+int numero;
+
 void mensagem()
 {
     printf("ola, mundo!\n");
+    numero = 50;
 }
 
 
@@ -20,6 +23,7 @@ int multiplicacao(int a, int b)
 int main()
 {
     mensagem();
+    printf("%d\n", numero);
 
     int resultado = multiplicacao(3,5);
     printf("resultado da multiplicacao..: %d\n", resultado);
