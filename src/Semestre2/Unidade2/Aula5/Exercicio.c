@@ -1,6 +1,8 @@
 //
 // Created by claud on 18/08/2025.
 //
+//  FEITO COM AJUDA DE IA
+//
 #include <stdio.h>
 #include <string.h>
 

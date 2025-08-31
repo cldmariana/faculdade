@@ -20,7 +20,7 @@ int main()
         printf("Tabuada de %d:\n", numero);
         for (int i = 1; i <= 10; i++)
         {
-            printf("%d X %d = %d\n", numero, i, numero * i);
+            printf("%d * %d = %d\n", numero, i, numero * i);
         }
 
         printf("Qual o resultado de %d X 7?\n", numero);
@@ -28,7 +28,7 @@ int main()
 
         if (resposta == numero * 7)
         {
-            printf("Voce acertou! %d X 7 eh igual a %d.\n", numero, numero * 7);
+            printf("Voce acertou! %d * 7 eh igual a %d.\n", numero, numero * 7);
         }
         else
         {
